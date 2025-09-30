@@ -1,0 +1,93 @@
+.container .clearfix { font-size: 0.9rem; }
+.clearfix {
+  text-align: justify;    // or right, center, justify
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;   // ~32px if base is 16px
+}
+
+h2 {
+  font-size: 1.25rem; // ~24px
+}
+
+
+// /* Swap font globally */
+// body {
+//   font-family: "Times New Roman", Times, serif;
+// }
+
+// /* Headings */
+// h1, h2, h3, h4, h5, h6 {
+//   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+//   font-weight: 600;  // or 700 for extra bold
+// }
+
+
+/* Smaller, tidy social icons */
+.social {
+  .contact-icons { 
+    font-size: 1.4rem;          /* affects <i> font icons */
+  }
+  .contact-icons a {
+    margin: 0 0.4rem;
+  }
+  .contact-icons i::before {     /* FA/Academicons */
+    font-size: 1.4rem;
+  }
+  .contact-icons svg,
+  .contact-icons img,
+  .contact-icons svg image {      /* for SVG/image-based icons */
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-bottom: 0.2rem;
+  }
+}
+
+
+/* Adjust profile image size to fit text */
+.profile img {
+  max-height: 100%;  /* never taller than text column */
+  width: auto;
+}
+
+/* Section headers like Pham Tan Hanh */
+.section-title {
+  margin: 2rem 0 1rem;
+  padding-left: .6rem;
+  border-left: 4px solid var(--global-theme-color);
+  font-weight: 700;
+  color: var(--global-text-color);
+}
+.section-title a {
+  color: inherit;              /* keep header color */
+  text-decoration: none;
+}
+.section-title a:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+/* Optional thin divider under 'Research Interests' paragraph */
+.section-divider {
+  max-width: 520px;
+  margin: 1rem 0 0;
+  height: 2px;
+  background: var(--global-theme-color);
+  opacity: .4;
+}
+
+// /* NEWS list – compact two-column feel */
+// .news .row,     /* al-folio include uses .row/.col-* */
+// .news .list-unstyled > li {
+//   align-items: baseline;
+//   margin-bottom: .75rem;
+// }
+// .news .post-meta,               /* dates in news.liquid */
+// .news .announcement-date {
+//   color: var(--global-text-color-light);
+//   font-weight: 600;
+//   min-width: 8rem;              /* left date column width */
+// }
+
