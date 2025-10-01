@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "Take a look at projects what I have got intuitions ideas.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -435,51 +435,21 @@ ninja.data = [{
           section: "News",},{id: "news-residual-dynamics-for-reducing-the-simulation-to-real-gap-in-zero-shot-humanoid-skill-deployment-was-accepted-in-humanoids-2025",
           title: 'Residual Dynamics for Reducing the Simulation-to-Real Gap in Zero-Shot Humanoid Skill Deployment was...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-model-based-bipedal-walking-locomotion",
+          title: 'Model Based Bipedal Walking Locomotion',
+          description: "Advisor: Prof. Hyungpil MoonKeywords: Constrained Dynamics, LIP, Feedback LinearizationTools: C++, Simscape/Matlab, Pinoccio, ROS2Ref: textbook",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-pure-rl-bipedal-walking-locomotion",
+          title: 'Pure RL Bipedal Walking Locomotion',
+          description: "Advisor: Prof. Choi Hyuk ReolKeyworks: Domain Randomization, PPO, Curriculum LearningTools: Pytorch, IsaacLab, RslrlRef: Unitree",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-pure-rl-all-bipedal-gaits-via-periodic-reward-composition-robust-controller-indi",
+          title: 'Pure RL All Bipedal Gaits via Periodic Reward Composition + Robust Controller INDI...',
+          description: "Advisor: Prof. Choi Hyuk ReolKeywords: Periodic Reward Composition, Robust Control, Incremental Nonlinear Dynamic InversionTools: Pytorch, IsaacLab, RslrlRef: LimX",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/3a_project/";
             },},{
         id: 'social-email',
         title: 'email',
