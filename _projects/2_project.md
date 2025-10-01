@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Pure RL Bipedal Walking Locomotion
+description: "Advisor: Prof. Choi Hyuk Reol<br>Keyworks: Domain Randomization, PPO, Curriculum Learning<br>Tools: Pytorch, IsaacLab, Rslrl<br>Ref: Unitree"
+img: assets/img/Walking_Downstair.gif
 importance: 2
 category: work
 giscus_comments: true

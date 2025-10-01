@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Model Based Bipedal Walking Locomotion
+description: "Advisor: Prof. Hyungpil Moon<br>Keywords: Constrained Dynamics, LIP, Feedback Linearization<br>Tools: C++, Simscape/Matlab, Pinoccio, ROS2<br>Ref: textbook"
+img: assets/img/Bipedal_Walking_Locomotion_using_Linear_Inverted_Pendulum_Model_Simscape_Simulink.gif
 importance: 1
 category: work
 related_publications: true
