@@ -450,6 +450,21 @@ ninja.data = [{
           description: "Advisor: Prof. Choi Hyuk ReolKeywords: Periodic Reward Composition, Robust Control, Incremental Nonlinear Dynamic InversionTools: Pytorch, IsaacLab, RslrlRef: LimX",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3a_project/";
+            },},{id: "projects-mppi-for-obstacle-avoidance",
+          title: 'MPPI for Obstacle Avoidance',
+          description: "Advisor: Prof. Kim Jong Hyun Keywords: Model Predictive Path Intergral, Log Barrier ConstraintTools: Python, CasadiRef: textbook",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-lqr-mpc-rl-for-swing-up-inverted-pendullum",
+          title: 'LQR, MPC, RL for Swing Up Inverted Pendullum',
+          description: "Advisor: Dr. Truong Quang Tri, Dr. Pham Tan Hanh Keywords: MPC, LQR, RL, System IdentificationTools: C++, RTOS, Linux Embedded, Casadi, STM32Ref: textbook",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-dynamic-modelling-and-control-quadcopter",
+          title: 'Dynamic Modelling and Control Quadcopter',
+          description: "Advisor: Dr. Truong Quang Tri, Dr. Pham Tan Hanh Keywords: Kalman Filter, Nonlinear Control, System IdentificationTools: C++, RTOS, Linux Embedded, STM32Ref: textbook",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{
         id: 'social-email',
         title: 'email',
