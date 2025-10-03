@@ -435,36 +435,46 @@ ninja.data = [{
           section: "News",},{id: "news-residual-dynamics-for-reducing-the-simulation-to-real-gap-in-zero-shot-humanoid-skill-deployment-was-accepted-in-humanoids-2025",
           title: 'Residual Dynamics for Reducing the Simulation-to-Real Gap in Zero-Shot Humanoid Skill Deployment was...',
           description: "",
-          section: "News",},{id: "projects-model-based-bipedal-walking-locomotion",
+          section: "News",},{id: "projects-hardware-in-the-loop-testing-for-deploying-rl",
+          title: 'Hardware In the Loop Testing for Deploying RL',
+          description: "Advisor: Prof. Choi Hyuk ReolKeyworks: Sim2Real, HITL, PPOTools: IsaacLab, Rslrl, C++, ONNX, Xenomai RTOS",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-model-based-bipedal-walking-locomotion",
           title: 'Model Based Bipedal Walking Locomotion',
           description: "Advisor: Prof. Hyungpil MoonKeywords: Constrained Dynamics, LIP, Feedback LinearizationTools: C++, Simscape/Matlab, Pinoccio, ROS2Ref: textbook",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-pure-rl-bipedal-walking-locomotion",
-          title: 'Pure RL Bipedal Walking Locomotion',
-          description: "Advisor: Prof. Choi Hyuk ReolKeyworks: Domain Randomization, PPO, Curriculum LearningTools: Pytorch, IsaacLab, RslrlRef: Unitree",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-pure-rl-all-bipedal-gaits-via-periodic-reward-composition-robust-controller-indi",
-          title: 'Pure RL All Bipedal Gaits via Periodic Reward Composition + Robust Controller INDI...',
-          description: "Advisor: Prof. Choi Hyuk ReolKeywords: Periodic Reward Composition, Robust Control, Incremental Nonlinear Dynamic InversionTools: Pytorch, IsaacLab, RslrlRef: LimX",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3a_project/";
+              window.location.href = "/projects/112_project/";
             },},{id: "projects-mppi-for-obstacle-avoidance",
           title: 'MPPI for Obstacle Avoidance',
           description: "Advisor: Prof. Kim Jong Hyun Keywords: Model Predictive Path Intergral, Log Barrier ConstraintTools: Python, CasadiRef: textbook",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/projects/114_project/";
             },},{id: "projects-lqr-mpc-rl-for-swing-up-inverted-pendullum",
           title: 'LQR, MPC, RL for Swing Up Inverted Pendullum',
           description: "Advisor: Dr. Truong Quang Tri, Dr. Pham Tan Hanh Keywords: MPC, LQR, RL, System IdentificationTools: C++, RTOS, Linux Embedded, Casadi, STM32Ref: textbook",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
+              window.location.href = "/projects/115_project/";
             },},{id: "projects-dynamic-modelling-and-control-quadcopter",
           title: 'Dynamic Modelling and Control Quadcopter',
           description: "Advisor: Dr. Truong Quang Tri, Dr. Pham Tan Hanh Keywords: Kalman Filter, Nonlinear Control, System IdentificationTools: C++, RTOS, Linux Embedded, STM32Ref: textbook",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
+              window.location.href = "/projects/116_project/";
+            },},{id: "projects-pure-rl-reaching-target",
+          title: 'Pure RL Reaching Target',
+          description: "Advisor: Prof. Choi Hyuk ReolKeyworks: Sim2Real, PPO, Reaching PoseTools: IsaacLab, Rslrl, C++, ONNX",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-pure-rl-bipedal-walking-locomotion",
+          title: 'Pure RL Bipedal Walking Locomotion',
+          description: "Advisor: Prof. Choi Hyuk ReolKeyworks: Domain Randomization, PPO, Curriculum LearningTools: Pytorch, IsaacLab, RslrlRef: Unitree",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-pure-rl-all-bipedal-gaits-via-periodic-reward-composition-robust-controller-indi",
+          title: 'Pure RL All Bipedal Gaits via Periodic Reward Composition + Robust Controller INDI...',
+          description: "Advisor: Prof. Choi Hyuk ReolKeywords: Periodic Reward Composition, Robust Control, Incremental Nonlinear Dynamic InversionTools: Pytorch, IsaacLab, RslrlRef: LimX",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
             },},{
         id: 'social-email',
         title: 'email',
