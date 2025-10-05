@@ -460,6 +460,11 @@ ninja.data = [{
           description: "Advisor: Dr. Truong Quang Tri, Dr. Pham Tan Hanh Keywords: Kalman Filter, Nonlinear Control, System IdentificationTools: C++, RTOS, Linux Embedded, STM32Ref: textbook",
           section: "Projects",handler: () => {
               window.location.href = "/projects/116_project/";
+            },},{id: "projects-cnn-predicton-caro-39-s-state-and-control-scara-robot-for-x-o",
+          title: 'CNN Predicton Caro&amp;#39;s State and Control SCARA Robot for X, O',
+          description: "Advisor: Prof. Nguyen Truong ThinhKeywords: CNN, Deep Learning, IKTools: C++, RTOS, Linux Embedded, STM32, Pytorch",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/117_project/";
             },},{id: "projects-pure-rl-reaching-target",
           title: 'Pure RL Reaching Target',
           description: "Advisor: Prof. Choi Hyuk ReolKeyworks: Sim2Real, PPO, Reaching PoseTools: IsaacLab, Rslrl, C++, ONNX",
@@ -475,6 +480,21 @@ ninja.data = [{
           description: "Advisor: Prof. Choi Hyuk ReolKeywords: Periodic Reward Composition, Robust Control, Incremental Nonlinear Dynamic InversionTools: Pytorch, IsaacLab, RslrlRef: LimX",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_project/";
+            },},{id: "projects-diffusion-model-as-motion-planner",
+          title: 'Diffusion Model as Motion Planner',
+          description: "Advisor: Prof. Choi Hyuk ReolKeyworks: DDIM, DDPM, Motion Capture, RetargetingTools: MDM, ClosD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-rl-with-motion-prior-feature-based",
+          title: 'RL with Motion Prior - Feature Based',
+          description: "Advisor: Prof. Choi Hyuk ReolKeyworks: Style Rewards, PPOTools: IsaacLab, Rslrl",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "projects-rl-with-motion-prior-gan-based",
+          title: 'RL with Motion Prior - GAN Based',
+          description: "Advisor: Prof. Choi Hyuk ReolKeyworks: AMP, PPOTools: IsaacLab, Rslrl",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
