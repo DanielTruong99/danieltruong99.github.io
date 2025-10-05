@@ -3,7 +3,7 @@ layout: page
 title: Pure RL Reaching Target
 description: "Advisor: Prof. Choi Hyuk Reol<br>Keyworks: Sim2Real, PPO, Reaching Pose<br>Tools: IsaacLab, Rslrl, C++, ONNX"
 img: assets/img/reaching.gif
-importance: 21
+importance: 10
 category: work
 giscus_comments: true
 ---

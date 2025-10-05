@@ -3,7 +3,7 @@ layout: page
 title: Hardware In the Loop Testing for Deploying RL
 description: "Advisor: Prof. Choi Hyuk Reol<br>Keyworks: Sim2Real, HITL, PPO<br>Tools: IsaacLab, Rslrl, C++, ONNX, Xenomai RTOS"
 img: assets/img/hitl.jpg
-importance: 22
+importance: 15
 category: work
 giscus_comments: true
 ---
